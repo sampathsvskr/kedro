@@ -1,0 +1,11 @@
+# This is a boilerplate parameters config generated for pipeline 'fetaure_engineering'
+# using Kedro 0.18.4.
+#
+# Documentation for this file format can be found in "Parameters"
+# Link: https://kedro.readthedocs.io/en/0.18.4/kedro_project_setup/configuration.html#parameters
+
+
+split_ratio: 0.25
+target_col: species
+random_state: 42
+p1: ${target_col}_1
