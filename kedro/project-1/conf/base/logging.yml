@@ -40,7 +40,7 @@ loggers:
   kedro:
     level: INFO
 
-  project_1:
+  sample_project:
     level: INFO
 
 root:

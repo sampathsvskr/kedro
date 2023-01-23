@@ -1,5 +1,5 @@
-"""project_1 file for ensuring the package is executable
-as `project-1` and `python -m project_1`
+"""sample_project file for ensuring the package is executable
+as `project-1` and `python -m sample_project`
 """
 import importlib
 from pathlib import Path

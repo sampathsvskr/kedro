@@ -5,13 +5,16 @@
 
 raw_data:
   type: pandas.CSVDataSet
-  filepath: data/01_raw/iris.csv
+  filepath: http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
+  load_args:   
+    sep: "," 
+    names: ['Sepal_Length','Sepal_Width','Petal_Length','Petal_Width','Species']
 
-encoded_data:
+save_data:
   type: pandas.CSVDataSet
-  filepath: data/02_intermediate/encoded_data.csv
+  filepath: data/01_raw/iris.csv
   save_args:
-    index: False
+    index: None
 
 
 train_x:
@@ -29,5 +32,10 @@ test_x:
 test_y:
   type: pandas.CSVDataSet
   filepath: data/03_primary/test_y.csv
+
+save_model: 
+  type: pickle.PickleDataSet
+  filepath: data/06_models/logistic_model.pkl
+  backend: pickle
 
 

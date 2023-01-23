@@ -1,4 +1,4 @@
-# project_1
+# sample_project
 
 ## Overview
 

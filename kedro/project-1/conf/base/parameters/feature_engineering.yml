@@ -6,6 +6,6 @@
 
 
 split_ratio: 0.25
-target_col: species
+target_col: Species
 random_state: 42
 p1: ${target_col}_1

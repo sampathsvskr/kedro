@@ -1,4 +1,4 @@
-"""project_1
+"""sample_project
 """
 
 __version__ = "0.1"

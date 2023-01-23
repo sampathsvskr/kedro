@@ -1,6 +1,6 @@
 [tool.kedro]
-package_name = "project_1"
-project_name = "project_1"
+package_name = "sample_project"
+project_name = "sample_project"
 project_version = "0.18.4"
 
 [tool.isort]
@@ -9,7 +9,7 @@ profile = "black"
 [tool.pytest.ini_options]
 addopts = """
 --cov-report term-missing \
---cov src/project_1 -ra"""
+--cov src/sample_project -ra"""
 
 [tool.coverage.report]
 fail_under = 0

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 
-# project_1 documentation build
+# sample_project documentation build
 # configuration file, created by sphinx-quickstart.
 #
 # This file is execfile()d with the current directory set to its
@@ -21,11 +21,11 @@ import re
 
 from kedro.framework.cli.utils import find_stylesheets
 
-from project_1 import __version__ as release
+from sample_project import __version__ as release
 
 # -- Project information -----------------------------------------------------
 
-project = "project_1"
+project = "sample_project"
 author = "Kedro"
 
 # The short X.Y version.
@@ -119,7 +119,7 @@ html_show_sourcelink = False
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = "project_1doc"
+htmlhelp_basename = "sample_projectdoc"
 
 # -- Options for LaTeX output ------------------------------------------------
 
@@ -147,8 +147,8 @@ latex_elements = {
 latex_documents = [
     (
         master_doc,
-        "project_1.tex",
-        "project_1 Documentation",
+        "sample_project.tex",
+        "sample_project Documentation",
         "Kedro",
         "manual",
     )
@@ -161,8 +161,8 @@ latex_documents = [
 man_pages = [
     (
         master_doc,
-        "project_1",
-        "project_1 Documentation",
+        "sample_project",
+        "sample_project Documentation",
         [author],
         1,
     )
@@ -176,11 +176,11 @@ man_pages = [
 texinfo_documents = [
     (
         master_doc,
-        "project_1",
-        "project_1 Documentation",
+        "sample_project",
+        "sample_project Documentation",
         author,
-        "project_1",
-        "Project project_1 codebase.",
+        "sample_project",
+        "Project sample_project codebase.",
         "Data-Science",
     )
 ]
